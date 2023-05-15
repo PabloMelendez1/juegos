@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/My project-1.png">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img id="ula" src="img/My project-1.png" style="max-width: 40%;"></a>
+        <div class="tooggle"></div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="juego1/pasa-palabra-main/index.html">Juego1</a></li>
+            <li><a href="juego2/juego escrituraa/index.html">Juego2</a></li>
+
+        </ul>
+    </header>
+
+    <section class="banner">
+        <div class="textBx">
+            <h2>15 de Mayo<br><span>Miguel Angel Asturias</span></h2>
+
+        
+        </div>
+    </section>
+    <h2 id="popo"></h2>
+    <section class="about">
+        <div class="heading">
+            <h2>Biografía</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Miguel Angel</h3>
+                <p>Se graduó de abogado en la Universidad de San Carlos, en Guatemala, donde participó en la lucha contra la dictadura de Estrada Cabrera, hasta que éste fue derrocado en 1920. Dos años después fundó y dirigió la Universidad Popular; ya en ese entonces había publicado sus primeros textos. Partió luego a Europa, donde vivió intensamente los movimientos y sucesos que la transformaban, y estudió lingüística y antropología maya en la Sorbona con el americanista Georges Raynaud; de esa época es su traducción del Popol Vuh, junto con José María Hurtado de Mendoza.</p>
+                   
+            </div>
+            <div class="w50">
+                <img src="img/asturias_miguel_angel.jpg" class="img">
+            </div>
+          </div>
+
+          <footer>
+            <h3>Lucia Bamaca</h3>
+            <h3>Pablo Melendez</h3>
+            <h3>Emerson Reyes</h3>
+            <h3>Luis Illescas</h3>
+          </footer>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>
