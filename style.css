@@ -42,7 +42,7 @@ section
 .btn
 {
     position: relative;
-    background: linear-gradient(50deg, #e42124, #3a080e);
+    background: linear-gradient(50deg, #414141, #11111100);
     display: inline-block;
     color: #fff;
     margin-top: 20px;
@@ -146,6 +146,90 @@ img
 {
     background: #111;
 }
+
+.heading.white
+{
+    color: #fff;
+}
+.services .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesBx
+{
+    padding: 30px 15px;
+    background: #111;
+    color: #fff;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 2em;
+}
+.services .content .servicesBx:hover
+{
+    background: linear-gradient(50deg, #e42124, #3a080e);
+}
+.services .content .servicesBx img
+{
+    max-width: 80px;
+    filter: invert(1);
+}
+.services .content .servicesBx h2
+{
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.testimonial
+{
+  background: #f7f7f7;
+}
+.testimonial .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimonial .content .testimonialBx
+{
+    min-width: calc(50% - 40px);
+    padding: 60px 40px;
+    margin: 20px;
+    background: linear-gradient(50deg, #4b4b4b, #1d1d1d);
+    border-radius: 2em;
+}
+.testimonial .content .testimonialBx p
+{
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+.testimonial .content .testimonialBx h3
+{
+   margin-top: 40px;
+   text-align: end;
+   color: #fff;
+   font-weight: 600;
+   font-size: 20px;   
+}
+
+#ula
+{
+    width: 150px;
+    height: auto;
+}
+
+
+
+
+
+
+
 
 footer {
     text-align: center;
