@@ -1,5 +1,5 @@
 
-let arrayPalabras =["COMUNICACIÓN", "LENGUAJE", "LENGUA", "HABLA", "FONEÉTICA", "HIATO"];
+let arrayPalabras =["COMUNICACION", "LENGUAJE", "LENGUA", "HABLA", "FONETICA", "HIATO"];
 let ayudas = [
     "Es el proceso de transmisión de información.",
     "Es la capacidad o facultad desarrollada en el ser humano para poder comunicarse.",
@@ -30,7 +30,7 @@ function cargarNuevaPalabra(){
     cantPalabrasJugadas++;
     if(cantPalabrasJugadas>6){
      
-        arrayPalabras =["COMUNICACIÓN", "LENGUAJE", "LENGUA", "HABLA", "FONÉTICA", "HIATO"];
+        arrayPalabras =["COMUNICACION", "LENGUAJE", "LENGUA", "HABLA", "FONÉTICA", "HIATO"];
         ayudas = [
             "Es el proceso de transmisión de información.",
             "Es la capacidad o facultad desarrollada en el ser humano para poder comunicarse.",
